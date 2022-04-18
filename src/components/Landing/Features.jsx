@@ -1,35 +1,35 @@
 import {
-  GlobeAltIcon,
+  PuzzleIcon,
   LightningBoltIcon,
-  MailIcon,
-  ScaleIcon,
+  RefreshIcon,
+  SearchIcon,
 } from "@heroicons/react/outline";
 import React from "react";
 
 const features = [
   {
-    name: "Competitive rates",
+    name: "Componentized",
     description:
-      "Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.",
-    icon: GlobeAltIcon,
+      "Threat model individual systems seprately and see the bigger picture.",
+    icon: PuzzleIcon,
   },
   {
-    name: "No hidden fees",
+    name: "Gain Insight",
     description:
-      "Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.",
-    icon: ScaleIcon,
+      "Know where your systems connect and where their docs are.",
+    icon: SearchIcon,
   },
   {
-    name: "Instant transfers",
+    name: "Instant updates",
     description:
-      "Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.",
+      "Commit your threat models to Git and see updates instantly in the application.",
     icon: LightningBoltIcon,
   },
   {
-    name: "Reminder emails",
+    name: "Continuous",
     description:
-      "Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.",
-    icon: MailIcon,
+      "Send reminders to your developers to update their threat model based on time or changes to the codebase.",
+    icon: RefreshIcon,
   },
 ];
 
@@ -74,7 +74,7 @@ export default function Features() {
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              A better way to send money.
+              A better way to Threat Model.
             </h2>
           </div>
           <dl className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">

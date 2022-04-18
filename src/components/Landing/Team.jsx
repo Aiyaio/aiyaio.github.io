@@ -1,13 +1,13 @@
 import React from "react";
 const people = [
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    name: "Oscar Tovar",
+    role: "Founder / CEO",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
+    bio: "Oscar is a privacy and security enthusiast that loves to build software that advances these fields.",
+    twitterUrl: "https://www.twitter.com/oats4br3akfast",
+    linkedinUrl: "https://www.linkedin.com/in/oscar-alberto-tovar/",
   },
   // More people...
 ];
@@ -21,10 +21,10 @@ export default function Team() {
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
               About Us
             </h2>
-            <p className="text-xl text-gray-500">
-              Nulla quam felis, enim faucibus proin velit, ornare id pretium.
-              Augue ultrices sed arcu condimentum vestibulum suspendisse.
-              Volutpat eu faucibus vivamus eget bibendum cras.
+            <p>
+              Aiya wants to make Threat Modeling easier for engineering and security teams. Aiya is focused on 
+              creating engineering focused security tooling. That allows engineering and security teams to make 
+              better decisions.
             </p>
           </div>
           <div className="lg:col-span-2">

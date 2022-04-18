@@ -9,7 +9,6 @@ export default function Landing() {
     <main>
       <Hero />
       <Features />
-      <Stats />
       <Team />
     </main>
   );
