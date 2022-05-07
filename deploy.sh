@@ -1,6 +1,9 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-set -e
+set -eou pipefail
+
+# remove any existing builds
+rm -rf dist/
 
 # build
 npm run build
