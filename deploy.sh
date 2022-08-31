@@ -6,10 +6,10 @@ set -eou pipefail
 rm -rf dist/
 
 # build
-npm run build
+npm run export
 
 # navigate into the build output directory
-cd dist
+cd out
 
 # if you are deploying to a custom domain
 echo 'aiya.io' > CNAME
@@ -26,4 +26,3 @@ git push -f git@github.com:aiyaio/aiyaio.github.io.git gh-pages
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
 
 cd -
-
