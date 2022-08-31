@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
-  height: 100vh;
+#__next {
+  min-height: 100%;
 }
