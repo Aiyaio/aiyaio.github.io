@@ -3,7 +3,7 @@
 set -eou pipefail
 
 # remove any existing builds
-rm -rf dist/
+rm -rf out/
 
 # build
 npm run export
@@ -13,6 +13,9 @@ cd out
 
 # if you are deploying to a custom domain
 echo 'aiya.io' > CNAME
+
+# ignore jekyll processing
+touch .nojekyll
 
 git init
 git checkout -b gh-pages
